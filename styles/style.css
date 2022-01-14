@@ -168,3 +168,34 @@ img {
     height: 414px;
     animation: lavigation 3s linear infinite;
 }
+
+/* ====================================
+    Client Area Styles
+================================*/
+
+.client_content {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    padding: 40px 0 20px;
+}
+
+.client_content::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 1px;
+    width: 100%;
+    background: rgba(170,170,170,.3);
+}
+
+.client_content::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 1px;
+    width: 100%;
+    background: rgba(170,170,170,.3);
+}
