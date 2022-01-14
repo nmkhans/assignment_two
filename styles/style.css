@@ -18,3 +18,64 @@ img {
     margin: 0 auto;
 }
 
+/* ====================================
+    Header Area Styles
+================================*/
+
+.header_area {
+    padding: 35px 0 20px;
+}
+
+.header_content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header_logo a {
+    display: inline-block;
+    text-decoration: none;
+    color: #3A3A3A;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.header_logo a span {
+    color: #E02C6D;
+}
+
+.header_navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 465px;
+}
+
+.header_menu ul {
+    list-style: none;
+}
+
+.header_menu ul li {
+    display: inline-block;
+    margin-left: -5px;
+}
+
+.header_menu ul li a {
+    display: inline-block;
+    text-decoration: none;
+    color: #3A3A3A;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    padding: 0 18px;
+}
+
+.header_icon a {
+    display: inline-block;
+    font-size: 22px;
+    color: #3A3A3A;
+    margin-left: 12.5px;
+    margin-right: 12.5px;
+}
