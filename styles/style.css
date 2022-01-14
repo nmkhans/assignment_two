@@ -176,6 +176,7 @@ img {
 .client_content {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     position: relative;
     padding: 40px 0 20px;
 }
@@ -198,4 +199,24 @@ img {
     height: 1px;
     width: 100%;
     background: rgba(170,170,170,.3);
+}
+
+/* ====================================
+    Collection Area Styles
+================================*/
+
+.collection_area {
+    padding: 100px 0;
+}
+
+.collection_title {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.collection_title h2 {
+    color: #3A3A3A;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 70px;
 }
