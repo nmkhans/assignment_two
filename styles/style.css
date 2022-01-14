@@ -149,7 +149,22 @@ img {
     text-align: center;
 }
 
+@keyframes lavigation {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-40px);
+    }
+
+    100% {
+        transform: translateY(0)
+    }
+}
+
 .hero_feature img {
     width: 440px;
     height: 414px;
+    animation: lavigation 3s linear infinite;
 }
