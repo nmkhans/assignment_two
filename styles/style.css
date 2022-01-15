@@ -364,6 +364,81 @@ img {
 }
 
 /* ====================================
+    Contact Area Styles
+================================*/
+
+.contact_area {
+    padding: 80px 0;
+}
+
+.contact_title {
+    text-align: center;
+}
+
+.contact_title h2 {
+    color: #3A3A3A;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 70px;
+}
+
+.contact_form {
+    box-shadow: 0px 0px 40px 0px #00000026;
+    padding: 100px 300px;
+    border-radius: 10px;
+    text-align: left;
+}
+
+.input_name {
+    display: flex;
+    justify-content: space-between;
+}
+
+.input_name input {
+    width: 47%;
+    display: inline-block;
+}
+
+.input_mail input {
+    width: 99%;
+}
+
+.input_msg textarea {
+    width: 99%;
+}
+
+.contact_form input, textarea {
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #3A3A3A;
+    padding: 10px 2px;
+    margin-bottom: 20px;
+}
+
+.contact_form textarea {
+    padding-top: 30px;
+    height: 100px;
+    resize: none;
+}
+
+.input_submit button {
+    border: none;
+    outline: none;
+    font-size: 15px;
+    font-weight: 500;
+    color: #fff;
+    background: #E02C6D;
+    padding: 10px 20px;
+    margin-top: 20px;
+    transition: .5s;
+    cursor: pointer;
+}
+
+.input_submit button:hover {
+    transform: scale(1.1);
+}
+
+/* ====================================
     Footer Area Styles
 ================================*/
 
