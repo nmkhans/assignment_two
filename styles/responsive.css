@@ -1,0 +1,270 @@
+@media all and (min-width: 200px) and (max-width:1200px) {
+    .container {
+        width: 100%;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .hero_text h2 {
+        font-size: 45px;
+    }
+
+    .hero_feature img {
+        width: 340px;
+        height: auto;
+    }
+
+    .client_content {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .collection_content {
+        grid-row-gap: 20px;
+        grid-column-gap: 20px;
+    }
+
+    .collections {
+	    width: 300px;
+    }
+
+    .collections .collection_feature img {
+        width: 100%;
+        height: auto;
+    }
+
+    .collection_description p {
+	    width: 250px;
+    }
+
+    .feature_area_text {
+        width: 50%;
+    }
+
+    .feature_area_text p {
+        width: 100%;
+    }
+
+    .feature_area_image {
+        width: 45%;
+    }
+
+    .feature_area_image img {
+        width: 100%;
+        height: auto;
+    }
+
+    .feature_area_text h2 {
+        font-size: 35px;
+        line-height: 40px;
+    }
+
+    .contact_form {
+        padding: 80px 100px;
+    }
+}
+
+@media all and (min-width: 200px) and (max-width:991px) {
+    .header_content {
+        flex-direction: column;
+    }
+
+    .header_navigation {
+        margin-top: 20px;
+    }
+
+    .hero_content {
+	    flex-direction: column-reverse;
+    }
+
+    .hero_text {
+        width: 100%;
+        text-align: center;
+    }
+
+    .hero_text p {
+        margin: 0 auto;
+        margin-top: 15px;
+    }
+
+    .clients {
+        width: 140px;
+        margin: 10px 0;
+    }
+
+    .collection_content {
+        grid-template-columns: repeat(2, 1fr);
+        grid-row-gap: 30px;
+    }
+
+    .collections {
+        width: 100%;
+    }
+
+    .collection_button {
+        text-align: left;
+        margin-top: 50px;
+    }
+
+    .feature_content {
+        flex-direction: column;
+    }
+
+    .feature_area_image {
+        width: 100%;
+    }
+
+    .feature_area_text {
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    .contact_form {
+        padding: 60px 80px;
+    }
+}
+
+@media all and (min-width: 200px) and (max-width: 768px) {
+    .header_logo a {
+        font-size: 20px;
+    }
+
+    .header_navigation {
+        width: 100%;
+    }
+
+    .header_menu ul li a {
+        padding: 0 11px;
+    }
+
+    .header_icon a {
+        font-size: 19px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .hero_text h2 {
+        font-size: 29px;
+        line-height: 43px;
+    }
+
+    .hero_text p {
+        width: 100%;
+        font-size: 15px;
+        font-weight: 500;
+    }
+
+    .clients {
+	    width: 100px;
+	    margin: 10px 0;
+    }
+
+    .client_content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+        padding: 20px 0 20px;
+    }
+
+    .collection_content {
+        grid-template-columns: repeat(1, 1fr);
+        grid-row-gap: 30px;
+    }
+
+    .contact_area {
+        padding: 40px 0;
+    }
+
+    .contact_form {
+	    padding: 40px 60px;
+    }
+
+    .footer_content h2 {
+        font-size: 20px;
+    }
+}
+
+@media all and (min-width: 200px) and (max-width:480px) {
+
+    .header_navigation {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .header_menu ul li a {
+        font-size: 15px;
+        padding: 0 10px;
+    }
+
+    .header_icon {
+        margin-top: 10px;
+    }
+
+    .header_icon a {
+        font-size: 16px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .hero_text h2 {
+        font-size: 27px;
+        line-height: 40px;
+    }
+
+    .hero_text a {
+        font-size: 15px;
+        font-weight: 600;
+        padding: 9px 20px;
+    }
+
+    .clients {
+        width: 80px;
+        margin: 10px 0;
+    }
+
+    .client_content {
+        padding: 10px 0 10px;
+    }
+
+    .collection_title h2 {
+        font-size: 25px;
+        line-height: 60px;
+    }
+
+    .feature_area_text h2 {
+        font-size: 25px;
+        line-height: 40px;
+    }
+
+    .feature_area_text p {
+        font-size: 15px;
+    }
+
+    .feature_area_text a {
+        font-size: 15px;
+        padding: 8px 15px;
+    }
+
+    .contact_title h2 {
+        font-size: 25px;
+        margin-bottom: 20px;
+    }
+
+    .contact_form {
+        padding: 20px 40px;
+    }
+
+    .input_submit button {
+        font-size: 14px;
+        padding: 8px 15px;
+    }
+
+    .footer_content h2 {
+        font-size: 17px;
+    }
+
+    .footer_content p {
+        font-size: 13px;
+    }
+}

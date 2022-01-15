@@ -315,7 +315,6 @@ img {
 
 .feature_content {
     display: flex;
-    flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
@@ -466,6 +465,10 @@ img {
     line-height: 36px;
 }
 
+.footer_content h2 span {
+    color: #E02C6D;
+}
+
 .footer_content p {
     font-size: 14px;
     line-height: 26px;
@@ -498,4 +501,9 @@ img {
     line-height: 30px;
     border-radius: 50%;
     margin-right: 15px;
+    transition: .5s;
+}
+
+.footer_social ul li a:hover {
+    background: #E02C6D;
 }
