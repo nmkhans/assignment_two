@@ -362,3 +362,57 @@ img {
 .feature_area_text a:hover {
     transform: scale(1.1);
 }
+
+/* ====================================
+    Footer Area Styles
+================================*/
+
+.footer_area {
+    padding: 50px 0;
+    background: #0A0826;
+}
+
+.footer_content {
+    text-align: center;
+}
+
+.footer_content h2 {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+}
+
+.footer_content p {
+    font-size: 14px;
+    line-height: 26px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.footer_social {
+    margin-top: 10px;
+}
+
+.footer_social ul {
+    list-style: none;
+}
+
+.footer_social ul li {
+    display: inline-block;
+    margin-left: -5px;
+}
+
+.footer_social ul li a {
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    color: #fff;
+    background: rgba(255, 255, 255, .1);
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
